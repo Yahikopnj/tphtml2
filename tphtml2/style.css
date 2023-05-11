@@ -1,0 +1,170 @@
+body{
+    margin: 0 50px;
+    background-color: #f6f6f4;
+}
+
+
+@font-face {
+    font-family:"regular";
+    src: url("./static/font/landsdowne_regular.ttf")format("truetype");
+}
+@font-face {
+    font-family:"avalanche";
+    src: url("./static/font/Vintage_Avalanche.otf")format("opentype");
+}
+#header{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    background-color: #baafa3;
+}
+#logo{
+    width: 280px;
+    height: 100px;
+    margin-left: 40px;
+}
+#navigation{
+    width: 100%;
+}
+#menu2{
+    display: flex;
+    list-style: none;
+    margin-top: 35px;
+    justify-content: space-evenly;
+    font-family: "avalanche";
+    font-size: 35px;
+}
+#fb{
+    width: 35px;
+    height: 35px;
+}
+#section1{
+    background-image: url("./static/image/photo_principale.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 499px;
+    display: flex;
+}
+#bienvenu{
+    width: 600px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
+}
+h1{
+    font-family: "regular";
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0px;
+    color: #014b5b;
+    letter-spacing: 5px;
+}
+#section2{
+    width: 100%;
+    display: flex;
+}
+.divgauche{
+    width: 40%;
+    height: 380px;
+}
+h2{
+    font-family: "avalanche";
+    text-align: center;
+    font-size: 35px;
+    color: #014b5b;
+    margin-top: 60px;
+}
+.texte{
+    font-family: "avalanche";
+    font-size: 20px;
+    text-align: center;
+}
+#texte1{
+    font-family: "avalanche";
+    color: white;
+    margin: auto;
+    font-size: 25px;
+}
+.cadre{
+    width: 160px;
+    height: 40px;
+    background-color: #014b5b;
+    display: flex;
+    margin-left: 155px;
+    margin-top: 70px;
+}
+.divbarre{
+    width: 1px;
+    height: 350px;
+    background-color: black;
+    margin-top: 15px;
+}
+.weekend{
+    font-family: "avalanche";
+    font-size: 20px;
+    text-align: center;
+    line-height: 0px;
+}
+#cadre1{
+    width: 160px;
+    height: 40px;
+    background-color: #014b5b;
+    display: flex;
+    margin-left: 157px;
+    margin-top: 52px;
+}
+#gouter{
+    height: 380px;
+    width: 100%;
+}
+#section3{
+    width: 100%;
+    display: flex;
+}
+#divdegauche{
+    width: 50%;
+}
+#divdedroite{
+    width: 50%;
+    height: 449px;
+    background-color: #baafa3;
+}
+
+.texte2{
+    font-family: "avalanche";
+    font-size: 20px;
+    text-align: center;
+}
+h3{
+    font-family: "avalanche";
+    text-align: center;
+    font-size: 35px;
+    color: #014b5b;
+    margin-top: 140px;
+}
+#plume{
+    width: 300px;
+    height: 200px;
+    margin-left: 457px;
+    margin-top: -47px;
+}
+.divbarre1{
+    width: 1px;
+    height: 205px;
+    background-color: black;
+    margin-top: 10px;
+}
+.divgauche1{
+    width: 40%;
+    height: 230px;
+}
+#navigation1{
+    width: 100%;
+    background-color: #baafa3;
+}
+#recrutement{
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    font-family: "avalanche";
+}
